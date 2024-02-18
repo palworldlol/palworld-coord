@@ -1,5 +1,7 @@
 # Palworld Coordinate Converter
 
+*Developed by https://palworld.lol with major help from  https://github.com/cmkb3*
+
 This is a small library with two functions used to convert between two different coordinat systems in Palworld:
 
 1. The coordinate system used in the game itself in the Paldex interactive map
