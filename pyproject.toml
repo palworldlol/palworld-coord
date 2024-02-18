@@ -1,0 +1,35 @@
+[project]
+name = 'get_version'
+description = 'A library to convert coordinates in Palworld from the .sav file to Paldex Map and vice-versa'
+authors = [{ name = 'Robert Bost', email = 'bostrt@gmail.com' }]
+maintainers = [{ name = "Robert Bost", email = "bostrt@gmail.com" }]
+urls.Homepage = 'https://github.com/palworldlol/palworld-coord-convert'
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+
+    "License :: OSI Approved :: MIT License",
+
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+
+    "Topic :: System :: Monitoring",
+    "Topic :: Games/Entertainment",
+]
+readme = 'README.md'
+license = { file = 'LICENSE' }
+requires-python = '>=3.9'
+dependencies = []
+dynamic = ['version']
+
+[project.optional-dependencies]
+test = ["flake8", "pytest"]
+
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
