@@ -9,8 +9,11 @@ This is a small library with two functions used to convert between two different
 
 ## Installation
 
-**TODO**
+```shell
+pip install palworld-coord
+```
 
+Also, if you want, you can just copy the [contents of this file](src/palworld_coord/__init__.py) into your project instead of adding a dependency. 
 
 ## API
 
