@@ -1,9 +1,10 @@
 [project]
-name = 'get_version'
+name = 'palworld-coord'
+version = "1.0.0"
 description = 'A library to convert coordinates in Palworld from the .sav file to Paldex Map and vice-versa'
 authors = [{ name = 'Robert Bost', email = 'bostrt@gmail.com' }]
 maintainers = [{ name = "Robert Bost", email = "bostrt@gmail.com" }]
-urls.Homepage = 'https://github.com/palworldlol/palworld-coord-convert'
+urls.Homepage = 'https://github.com/palworldlol/palworld-coord'
 classifiers = [
     "Intended Audience :: Developers",
     "Intended Audience :: System Administrators",
@@ -23,7 +24,6 @@ readme = 'README.md'
 license = { file = 'LICENSE' }
 requires-python = '>=3.9'
 dependencies = []
-dynamic = ['version']
 
 [project.optional-dependencies]
 test = ["flake8", "pytest"]
@@ -31,5 +31,5 @@ test = ["flake8", "pytest"]
 [build-system]
 # These are the assumed default build requirements from pip:
 # https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
-requires = ["setuptools>=43.0.0", "wheel"]
+requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"

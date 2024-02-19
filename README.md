@@ -25,7 +25,7 @@ map_to_sav(x: int,   y: int) -> Point
 
 
 ```python
-from palworld_coord_convert import sav_to_map, map_to_sav
+from palworld_coord import sav_to_map, map_to_sav
 
 # Anubis boss location pulled from game data
 sav_to_map(-167230, 96430)
