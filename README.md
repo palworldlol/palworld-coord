@@ -1,6 +1,9 @@
 # Palworld Coordinate Converter
 
-*Developed by https://palworld.lol with major help from  https://github.com/cmkb3*
+* *Developed by https://palworld.lol with major help from  https://github.com/cmkb3*
+* *[A blog post covering](https://blog.palworld.lol/reverse-engineering-palworld-coordinate-system/) some of the reason behind this library*
+
+# What is this?
 
 This is a small library with two functions used to convert between two different coordinat systems in Palworld:
 
