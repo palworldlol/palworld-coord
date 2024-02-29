@@ -1,5 +1,6 @@
 from collections import namedtuple
 
+# Where did these numbers come from? See https://github.com/palworldlol/palworld-coord/blob/main/DEV.md
 __transl_x = 123888
 __transl_y = 158000
 __scale = 459
